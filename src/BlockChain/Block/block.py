@@ -2,7 +2,7 @@ from typing import List
 import hashlib
 import pickle
 
-class block:
+class Block:
   __perviouse_hash: str
   __transactions: List[str]
   __block_hash: str

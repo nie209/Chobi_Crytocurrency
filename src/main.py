@@ -1,5 +1,5 @@
-from Block.block import block
+from BlockChain.Block.block import Block
 
-myblock: block = block('abc', ['abd', 'dcda'])
+myblock: Block = Block('abc', ['abd', 'dcda'])
 
 print(myblock.get_block_hash().hexdigest())
